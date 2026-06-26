@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>States | Incredible India</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --brand-green: #1b4d3e;
+            --accent-green: #52796f;
+        }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #fdfdfd;
+            color: #333;
+        }
+
+        h1 { color: #2f3e46; font-weight: 700; margin-bottom: 10px; }
+        h2 { color: var(--brand-green); font-weight: 700; margin-top: 40px; }
+        h3 { color: var(--accent-green); font-weight: 600; margin-top: 25px; border-bottom: 2px solid #eee; padding-bottom: 5px; }
+        
+        .tagline { color: var(--accent-green); font-style: italic; font-size: 1.1rem; }
+
+        .nav-pills .nav-link { 
+            color: var(--brand-green);
+            font-weight: 500;
+            transition: 0.3s; 
+        }
+
+        .nav-pills .nav-link.active {
+            background-color: var(--brand-green) !important;
+            color: white !important;
+        }
+
+        /* Hover Zoom Effect */
+        .hover-zoom { 
+            overflow: hidden; 
+            border-radius: 12px; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .hover-zoom img { 
+            transition: transform 0.5s ease; 
+            width: 100%; 
+            height: 400px;
+            object-fit: cover;
+            display: block;
+        }
+        .hover-zoom:hover img { transform: scale(1.1); }
+
+        /* Learn More Link */
+        .learn-more {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 25px;
+            background-color: var(--brand-green);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        .learn-more:hover {
+            background-color: var(--accent-green);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        .main-footer {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 40px 0;
+            margin-top: 60px;
+            border-top: 6px solid #cad2c5;
+        }
+        .footer-content p {
+            margin: 0;
+            font-size: 15px;
+            letter-spacing: 2px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="container pt-4 pb-2 text-center">
+
+        <hr class="container opacity-25 my-4">
+        <h1>Discover Indian States & Regions</h1>
+        <p class="tagline">"Find Your Piece of Paradise, State by State"</p>
+
+        <nav class="d-flex justify-content-center mt-4">
+            <ul class="nav nav-pills flex-wrap justify-content-center gap-2">
+                <li class="nav-item"><a class="nav-link" href="./Incredibleindia.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="./states.html">States</a></li>
+                <li class="nav-item"><a class="nav-link" href="./places.html">Places</a></li>
+                <li class="nav-item"><a class="nav-link" href="./gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="./travelinfo.html">Travel Info</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr class="container opacity-25 my-4">
+
+    <main class="container">
+
+        <section>
+            <h2>1. Gujarat :</h2>
+            <p class="mt-3 fs-5">
+                Gujarat, located on India's western coast, is a diverse state known for 
+                its rich history, spiritual significance, and vibrant culture, acting as 
+                the land of Mahatma Gandhi and the Asiatic lion. First-time visitors 
+                should prioritize the White Desert of Kutch, the wildlife at Gir National 
+                Park, the spiritual sites of Dwarka and Somnath, the historic Ahmedabad, 
+                and the monumental Statue of Unity.
+            </p>
+
+            <div class="row g-4 mt-2">
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./guj.jpg" alt="Gujarat Heritage"></div></div>
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./sou.webp" alt="Statue of Unity"></div></div>
+            </div>
+
+            <h3>Top Must-Visit Destinations for First-Timers in Gujarat :</h3>
+            <ul class="mt-3">
+                <li><b>Ahmedabad (UNESCO World Heritage City) :</b> Known for the Sabarmati Ashram, Adalaj Stepwell, and a vibrant street food culture.</li>
+                <li><b>Statue Of Unity (Kevadia) :</b> The world's tallest statue dedicated to Sardar Vallabhbhai Patel, surrounded by the Valley of Flowers.</li>
+                <li><b>The Rann of Kutch :</b> A vast, white salt desert. Best visited during the Rann Utsav (Nov-Feb).</li>
+                <li><b>Gir National Park :</b> The only remaining habitat of the Asiatic Lion, offering thrilling jeep safaris.</li>
+                <li><b>Dwarka & Somnath :</b> Key pilgrimage sites. Dwarka is the ancient kingdom of Lord Krishna, while Somnath houses a sacred Jyotirlinga.</li>
+                <li><b>Patan & Modhera :</b> Visit the UNESCO-listed Rani ki Vav in Patan and the Sun Temple in Modhera.</li>
+                <li><b>Vadodara (Baroda) :</b> Known for the magnificent Laxmi Vilas Palace.</li>
+            </ul>
+
+            <div class="bg-light p-4 rounded-4 mt-4 mb-4">
+                <h4 class="fw-bold text-success">Essential Travel Tips :</h4>
+                <ul class="mb-0">
+                    <li><b>Best Time to Visit :</b> November to February, especially for the Rann of Kutch.</li>
+                    <li><b>Food :</b> Simple authentic vegetarian Gujarati thali, including Dhokla, Thepla, and Fafda.</li>
+                    <li><b>Culture :</b> It is a "dry state," meaning alcohol is prohibited for residents and restricted for tourists.</li>
+                </ul>
+            </div>
+
+            <a href="./aboutgujarat.html" class="learn-more shadow-sm">Dive Deeper in Beauty of Gujarat</a>
+
+            <div class="row g-4 mt-2">
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./guj2.jpg" alt="Gujarat 2"></div></div>
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./Great-Rann-Of-Kutch-Banner.jpg" alt="Rann of Kutch"></div></div>
+            </div>
+        </section>
+
+        <hr class="my-5 opacity-25">
+
+        <section>
+            <h2>2. Rajasthan :</h2>
+            <p class="mt-3 fs-5">
+                Rajasthan, India’s largest state and the "Land of Kings," is a vibrant 
+                tapestry of majestic forts, desert landscapes, and rich royal heritage. For 
+                first-time visitors, the essential "Golden Triangle" of Rajasthan includes 
+                exploring the pink city of Jaipur, the blue city of Jodhpur, and the romantic 
+                lake city of Udaipur.
+            </p>
+
+            <div class="row g-4 mt-2">
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./raj.jpg" alt="Rajasthan Palace"></div></div>
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./raj1.jpg" alt="Rajasthan Fort"></div></div>
+            </div>
+
+            <h3>Top Must-Visit Destinations for First-Timers in Rajasthan :</h3>
+            <ul class="mt-3">
+                <li><b>Jaipur (The Pink City) :</b> The capital city, famous for the Amber Fort, Hawa Mahal, and City Palace.</li>
+                <li><b>Udaipur (The City of Lakes) :</b> Known for its romantic setting, with the City Palace situated along Lake Pichola.</li>
+                <li><b>Jodhpur (The Blue City) :</b> Renowned for the massive Mehrangarh Fort overlooking blue-painted houses.</li>
+                <li><b>Jaisalmer (The Golden City) :</b> Located in the heart of the Thar Desert, known for its living fort and camel safaris.</li>
+                <li><b>Ranthambore National Park :</b> A premier destination for spotting Bengal tigers in the wild.</li>
+                <li><b>Pushkar :</b> A sacred town known for its unique Brahma Temple and the annual Camel Fair.</li>
+                <li><b>Chittorgarh :</b> Famous for the expansive Chittorgarh Fort, a symbol of Rajput valour.</li>
+            </ul>
+
+            <div class="bg-light p-4 rounded-4 mt-4 mb-4">
+                <h4 class="fw-bold text-success">Essential Travel Tips :</h4>
+                <ul class="mb-0">
+                    <li><b>Best Time to Visit :</b> October to March, when the weather is cooler.</li>
+                    <li><b>Getting Around :</b> A 7-day itinerary covering Jaipur, Jodhpur, and Udaipur offers the best introduction.</li>
+                    <li><b>Experiences :</b> Enjoy camel safaris, stay in converted palace hotels, and savor Rajasthani cuisine.</li>
+                </ul>
+            </div>
+
+            <a href="./aboutrajasthan.html" class="learn-more shadow-sm">Dive Deeper in Beauty of Rajasthan</a>
+
+            <div class="row g-4 mt-2">
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./raj3.jpg" alt="Rajasthan 3"></div></div>
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./rajfc1.jpg" alt="Rajasthani Food"></div></div>
+            </div>
+        </section>
+
+        <hr class="my-5 opacity-25">
+
+        <section>
+            <h2>3. Himachal Pradesh :</h2>
+            <p class="mt-3 fs-5">
+                Himachal Pradesh, located in the Western Himalayas, is a breathtaking 
+                Indian state renowned for its snow-capped peaks, lush valleys, and 
+                colonial charm. First-time visitors should focus on iconic, accessible 
+                destinations like Shimla, Manali, Dharamshala, and Dalhousie for a mix of 
+                culture, nature, and adventure.
+            </p>
+
+            <div class="row g-4 mt-2">
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./hp.jpg" alt="Himachal Snow"></div></div>
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./hp1.jpg" alt="Himachal Valleys"></div></div>
+            </div>
+
+            <h3>Top Must-Visit Destinations for First-Timers in Himachal Pradesh :</h3>
+            <ul class="mt-3">
+                <li><b>Shimla :</b> The capital city, known for its colonial-era architecture, the Mall Road, and the Ridge.</li>
+                <li><b>Manali :</b> A premier destination in the Kullu Valley for adventure lovers and close to Rohtang Pass.</li>
+                <li><b>Dharamshala & Mcleodganj :</b> The home of the Dalai Lama, known for Tibetan culture and monasteries.</li>
+                <li><b>Dalhousie & Khajjiar :</b> A tranquil hill station known as "Mini Switzerland."</li>
+                <li><b>Kasol :</b> A popular spot in Parvati Valley, perfect for relaxed travelers and trekkers.</li>
+                <li><b>Rohtang Pass :</b> Located near Manali, it is a must-visit for experiencing snow year-round.</li>
+            </ul>
+
+            <div class="bg-light p-4 rounded-4 mt-4 mb-4">
+                <h4 class="fw-bold text-success">Essential Travel Tips :</h4>
+                <ul class="mb-0">
+                    <li><b>Best Time to Visit :</b> March to June for pleasant weather, or October to November.</li>
+                    <li><b>Activity :</b> Enjoy trekking, visiting local temples, and enjoying mountain views.</li>
+                    <li><b>Travel :</b> Most journeys to these locations start from Delhi or Chandigarh.</li>
+                </ul>
+            </div>
+
+            <a href="./abouthimachalpradesh.html" class="learn-more shadow-sm">Dive Deeper in Beauty of Himachal Pradesh</a>
+
+            <div class="row g-4 mt-2">
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./hp3.avif" alt="Himachal 3"></div></div>
+                <div class="col-md-6"><div class="hover-zoom shadow"><img src="./hp2.jpg" alt="Himachal 4"></div></div>
+            </div>
+        </section>
+
+        <div class="text-center mt-5 py-4 border-top">
+            <a href="./Incredibleindia.html" class="btn btn-dark rounded-pill px-5 py-2 fw-bold shadow-sm">Back to Home</a>
+        </div>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Incredible India | Designed by Priyanshi</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
